@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { ListaProdutos } from "../../components/ListaProdutos"
+import { ListaProdutos } from "../../components/listaProduto"
 
 export default function Home() {
 
@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <main>
-      <h1>APROVEITE HOJE NOSSAS PROMOÇÕES!</h1>
+      <h1>Super promoção!</h1>
       {aparelhoPromocao.map(prod => (
         <div key={prod.id} class="style-product">
           <Link to={`../produtos/editar/${prod.id}`} >
