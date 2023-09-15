@@ -22,7 +22,13 @@ export default function EditarProduto() {
         <h2>{produto.nome}</h2>
         <h2>R${produto.preco}</h2>
         <p><img src={`${produto.img}`} alt={`${produto.nome}`} /></p>
+        <p>Detalhes do aparelho: </p>
+        <p>Memória: {produto.memoria}, Ram: {produto.ram}, Polegada: {produto.polegada}, Cor: {produto.cor}</p>
       </div>   
     </main>
   )
 }
+//memoria: "256 GB",
+//ram: "8 GB",
+//polegada: "6,4",
+//cor:  "preto",
