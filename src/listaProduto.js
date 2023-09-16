@@ -9,7 +9,7 @@ export const listaProdutos = [
     {
         id:2,
         nome: 'Caixa de som JBL',
-        desc: '24H/Bluetooth/Tam:G',
+        desc: '24H/Bluetooth/Tam:M',
         preco: 1200,
     },
     {
